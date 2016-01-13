@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Match</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find your Celebrity Match</h1>
+
+      <p>Please fill out this form to find out which celebrity you match with best!</p>
+
+      <form id="celeb">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+
+
+        <label for="gender">Preferred Gender</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <button type="submit" class="btn">Find my celebrity match!</button>
+      </form>
+
+      <div id="male1">Liam Hemsworth</div>
+      <div id="male2">Tatem Channing</div>
+      <div id="male3">Bruce Willis</div>
+      <div id="female1">Jennifer Lawrence</div>
+      <div id="female2">Reese Witherspoon</div>
+      <div id="female3">Michelle Pfeiffer</div>          
+
+      <div id="celeb-match">
+        <p>Your celebrity match is: $<span id="match"></span> Congratulations!</p>
+      </div>
+
+    </div>
+  </body>
+</html>
